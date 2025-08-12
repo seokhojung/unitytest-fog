@@ -1,0 +1,52 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/*.csproj
+/*.sln
+/*.userprefs
+/.vs/
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Crashlytics / Addressables / ShaderCache etc
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/StreamingAssets/
+/Library/ShaderCache/
+/Library/Artifacts/
+
+# Package stuff
+/Packages/packages-lock.json
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build
+*.apk
+*.aab
+*.ipa
+*.xcworkspace
+*.xcuserdatad/
+*.xcodeproj/
+
+# Misc
+/.gradle/
+*.log
+
+
