@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/report.schema.json",
+  "title": "TrainingReport",
+  "type": "object",
+  "required": ["sessionId", "scenarioId", "metrics", "timestamp"],
+  "properties": {
+    "sessionId": { "type": "string" },
+    "userAnonId": { "type": "string" },
+    "scenarioId": { "type": "string" },
+    "metrics": {
+      "type": "object",
+      "required": ["score"],
+      "properties": {
+        "score": { "type": "number", "minimum": 0 },
+        "fpsAvg": { "type": "number", "minimum": 0 },
+        "errors": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "timestamp": { "type": "string", "format": "date-time" }
+  }
+}
+
+

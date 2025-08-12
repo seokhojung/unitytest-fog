@@ -1,3 +1,11 @@
+---
+title: "BMAD METHOD PRD v1.1 – 개선 반영 버전"
+owner: "<PM/팀>"
+status: "Draft"
+milestone: "<YYYY-MM>"
+kpi: ["<핵심 KPI 1>", "<핵심 KPI 2>"]
+---
+
 # BMAD METHOD PRD v1.1 – 개선 반영 버전
 
 ## 1. Overview / 프로젝트 개요
